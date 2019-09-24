@@ -1,0 +1,178 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.grid-container {
+  align-content: center;
+  margin: 0 auto;
+  width: 350px;
+  height: 525px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "result result result result" "clear pos-neg percent op-div" "num7 num8 num9 op-mul" "num4 num5 num6 op-sub" "num1 num2 num3 op-plus" "num0 num0 deci op-eq";
+}
+
+.result { 
+  grid-area: result; 
+  color: white;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.clear { 
+  grid-area: clear; 
+  background-color: #ccc;
+  color: black;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.pos-neg { 
+  grid-area: pos-neg; 
+  background-color: #ccc;
+  color: black;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.percent { 
+  grid-area: percent; 
+  background-color: #ccc;
+  color: black;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.op-div { 
+  grid-area: op-div; 
+  background-color: orange;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.num7 { 
+  grid-area: num7; 
+  background-color: #6669;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.num8 { 
+  grid-area: num8; 
+  background-color: #6669;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.num9 { 
+  grid-area: num9; 
+  background-color: #6669;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.op-mul { 
+  grid-area: op-mul; 
+  background-color: orange;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.num4 { 
+  grid-area: num4; 
+  background-color: #6669;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.num5 { 
+  grid-area: num5; 
+  background-color:#6669;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.num6 { 
+  grid-area: num6; 
+  background-color: #6669;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.op-sub { 
+  grid-area: op-sub; 
+  background-color: orange;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.num1 { 
+  grid-area: num1; 
+  background-color: #6669;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.num2 { 
+  grid-area: num2; 
+  background-color: #6669;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.num3 { 
+  grid-area: num3; 
+  background-color: #6669;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.op-plus { 
+  grid-area: op-plus; 
+  background-color: orange;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.num0 { 
+  grid-area: num0; 
+  background-color:#6669;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.deci { 
+  grid-area: deci; 
+  background-color: #6669;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
+
+.op-eq { 
+  grid-area: op-eq; 
+  background-color: orange;
+  margin: 5px;
+  border: 1px; 
+  border-radius: 50%;
+}
