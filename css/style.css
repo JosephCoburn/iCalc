@@ -176,3 +176,8 @@ body {
   border: 1px; 
   border-radius: 50%;
 }
+
+.center-text {
+  text-align: center;
+  margin: 0 auto;
+}
